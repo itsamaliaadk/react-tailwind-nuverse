@@ -1,5 +1,12 @@
+import React from "react";
+import SectionHero from "../component/blocks/SectionHero";
+import SectionPartner from "../component/blocks/SectionPartner";
+
 export default function Home() {
-    return (
-        <h1>Home</h1>
-    )
+  return (
+    <>
+      <SectionHero />
+      <SectionPartner />
+    </>
+  );
 }
